@@ -40,8 +40,7 @@ public class MainActivity extends AppCompatActivity {
             if (isValid()) {
                   String nama = etNama.getText().toString();
                   String alamat = etAlamat.getText().toString();
-                  String hasil = rbP.getText().toString();
-                  tvHasil.setText(nama + " asal " + alamat + "Jenis Kelamin Anda " + hasil);
+                  tvHasil.setText(nama + " asal " + alamat + "Jenis Kelamin Anda ");
             }
             String hasil = null;
 
