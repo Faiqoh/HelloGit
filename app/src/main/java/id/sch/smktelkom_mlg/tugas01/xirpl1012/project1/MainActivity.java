@@ -41,11 +41,9 @@ public class MainActivity extends AppCompatActivity {
                   String nama = etNama.getText().toString();
                   String alamat = etAlamat.getText().toString();
                   String hasil = rbP.getText().toString();
-                  String hasil1 = rbL.getText().toString();
                   tvHasil.setText(nama + " asal " + alamat + "Jenis Kelamin Anda " + hasil);
             }
             String hasil = null;
-            String hasil1 = null;
 
             if (rbP.isChecked()) {
                   hasil = rbP.getText().toString();
